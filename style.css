@@ -1,0 +1,22 @@
+.header-container {
+	height: 180px;
+	background-color: #1f2937;
+	padding: 20px;
+
+}
+
+.header-container h1 {
+	font-size: 24px;
+	color: #f9faf8;
+	position: absolute;
+	top: 30;
+	left: 100;
+}
+
+.header-container p {
+	margin: 30;
+	margin-left: 500px; 
+	font-size: 18px;
+	color: #e5e7eb;
+
+} 
