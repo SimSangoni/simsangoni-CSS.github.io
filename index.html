@@ -2,15 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>CSS Project</title>
 </head>
 <body>
-	<header>
-        <div class="header-container">
-            <h1>Header Logo</h1>  
-                    <p>header link one      header link two      header link three</p>          
+    <header>
+        <h1>Header Logo</h1>
+        <nav>
+          <ul>
+            <li><a href="#">header link one</a></li>
+            <li><a href="#">header link two</a></li>
+            <li><a href="#">header link three</a></li>
+          </ul>
+        </nav>
+        <div class="Hero">
+            <div class="HeroText"> 
+                <p id="HeroMain"> This website is <br> awesome</p> 
+                <p id="HeroSec"> This website has some subtext that goes
+                here under the <br> main title. It's a smaller font and 
+                the color is lower <br> contrast.
+                </p>
+                <button id="button1">Sign up</button>
+            </div>
+            <div class="placeholder">
+                <img src="images/placeholder.png" alt="This is a placeholder
+                for an image" width="320">
+            </div>
         </div>
-	</header>
+      </header>
+      <section class="info">
+        <h1>Some random information</h1>
+        <div class="InfoFigures">
+            <figure>
+                <img src="images/info.png" alt="Info Image" width="150">
+                <figcaption>this is some subtext <br>
+                under an illustration <br> or image</figcaption>
+            </figure>
+            <figure>
+                <img src="images/info.png" alt="Info Image" width="150">
+                <figcaption>this is some subtext <br>
+                under an illustration <br> or image</figcaption>
+            </figure>
+            <figure>
+                <img src="images/info.png" alt="Info Image" width="150">
+                <figcaption>this is some subtext <br>
+                under an illustration <br> or image</figcaption>
+            </figure>
+            <figure>
+                <img src="images/info.png" alt="Info Image" width="150">
+                <figcaption>this is some subtext <br>
+                under an illustration <br> or image</figcaption>
+            </figure>
+        </div>      
+    </section>
+    <blockquote class="quote">
+        <p> This is an inspiring quote, or a testimonial from a <br>
+        customer. Maybe it's just filling up space, or maybe <br>
+        people will actually read it. Who knows? All I know <br>
+        is that it looks nice.
+        </p>
+        <footer>— Thor</footer>
+    </blockquote>
+    <section class="action">
+        <p id="time">Call to action! It's time!</p>
+        <div>
+           <p id="click">Sign up for our product by clicking that button right
+            over there.
+           </p> 
+           <button id="sign">Sign up</button>
+        </div>   
+    </section>
+    <footer id="copyright">
+        <p> Copyright &copy;</p>
+    </footer>
 </body>
 </html>
